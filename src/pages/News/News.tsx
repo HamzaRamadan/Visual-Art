@@ -37,7 +37,6 @@ const News = () => {
   const isRTL = language === 'ar';
 
   const text = {
-    date: isRTL ? 'منذ سنة' : '1 year ago',
     title: isRTL ? 'يسعدنا الإعلان عن مشاركة مصنعنا في معرض هيلث إكسبو – بغداد، والذي سيُقام من 18 إلى 21 أيلول. سنعرض خلاله جودة خدماتنا وإمكاناتنا المتقدمة في مجال الطباعة. ' : 'We are pleased to announce our participation in Health Expo – Baghdad, taking place from September 18 to September 21. During the event, we will showcase the quality of our services and our advanced printing capabilities.',
   };
 
