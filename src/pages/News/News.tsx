@@ -38,8 +38,7 @@ const News = () => {
 
   const text = {
     date: isRTL ? 'منذ سنة' : '1 year ago',
-    title: isRTL ? 'معرض مصنع الفارابي للطباعة 2025' : 'Al-Farabi Printing Factory Expo 2025',
-    button: isRTL ? 'اقرأ المزيد' : 'Read More',
+    title: isRTL ? 'يسعدنا الإعلان عن مشاركة مصنعنا في معرض هيلث إكسبو – بغداد، والذي سيُقام من 18 إلى 21 أيلول. سنعرض خلاله جودة خدماتنا وإمكاناتنا المتقدمة في مجال الطباعة. ' : 'We are pleased to announce our participation in Health Expo – Baghdad, taking place from September 18 to September 21. During the event, we will showcase the quality of our services and our advanced printing capabilities.',
   };
 
   return (
@@ -51,7 +50,6 @@ const News = () => {
         <div className="news-text">
           <p>{text.date}</p>
           <h2>{text.title}</h2>
-          <button className="read-more-btn">{text.button}</button>
         </div>
         <div className="news-video">
           <video controls>
