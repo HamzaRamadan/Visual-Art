@@ -5,29 +5,17 @@ import SectionTitle from '../../components/layout/SectionTitle';
 const newsCards = [
   {
     id: 1,
-    titleAr: "افتتاح معرض فنون جديد",
-    titleEn: "New Art Exhibition Opening",
-    descriptionAr: "تم افتتاح معرض فنون جديد في وسط المدينة يضم أعمالاً رائعة لفنانين محليين.",
-    descriptionEn: "A new art exhibition opened in the city center showcasing amazing works by local artists.",
-    date: "2025-08-16",
+
     image: "/assets/images/Co Profile 70 Pages 03-images-54.jpg"
   },
   {
     id: 2,
-    titleAr: "ورشة عمل للرسم الرقمي",
-    titleEn: "Digital Painting Workshop",
-    descriptionAr: "انضم إلى ورشة العمل عبر الإنترنت لتعلم الرسم الرقمي من خبراء المجال.",
-    descriptionEn: "Join the online workshop to learn digital painting from industry experts.",
-    date: "2025-08-10",
+ 
     image: "/assets/images/Co Profile 70 Pages 03-images-63.jpg"
   },
   {
     id: 3,
-    titleAr: "تجديد صالة العرض الرئيسية",
-    titleEn: "Main Gallery Renovation",
-    descriptionAr: "تم تجديد صالة العرض الرئيسية بإضاءة ومساحات جديدة لعرض الأعمال الفنية.",
-    descriptionEn: "The main gallery has been renovated with new lighting and spaces to display artworks.",
-    date: "2025-08-01",
+ 
     image: "/assets/images/Co Profile 70 Pages 03-images-65.jpg"
   },
 ];
@@ -47,7 +35,6 @@ const News = () => {
 
       <div className="news-container">
         <div className="news-text">
-          <p>{text.date}</p>
           <h2>{text.title}</h2>
         </div>
         <div className="news-video">
