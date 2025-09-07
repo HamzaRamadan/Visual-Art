@@ -50,12 +50,7 @@ const News = () => {
         {newsCards.map((news) => (
           <div className="news-card" key={news.id}>
             <img src={news.image} alt={isRTL ? news.titleAr : news.titleEn} />
-            <div className="news-card-content">
-              <h3>{isRTL ? news.titleAr : news.titleEn}</h3>
-              <p>{isRTL ? news.descriptionAr : news.descriptionEn}</p>
-              <span className="news-card-date">{news.date}</span>
-              {/* <button className="read-more-btn">{text.button}</button> */}
-            </div>
+            
           </div>
         ))}
       </div>
